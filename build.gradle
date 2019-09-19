@@ -55,7 +55,7 @@ else {
 dependencies {
     compile(group: "me.seeber.gradle", name: "gradle-project-config", version: "1.1.2")
     compile(group: "me.seeber.gradle", name: "gradle-github-config", version: "1.1.2")
-    compile(group: "com.jfrog.bintray.gradle", name: "gradle-bintray-plugin", version: "1.7.1")
+    compile(group: "com.jfrog.bintray.gradle", name: "gradle-bintray-plugin", version: "1.8.4")
 
     if(project.hasProperty("bootstrap")) {
         compile(gradleApi())
